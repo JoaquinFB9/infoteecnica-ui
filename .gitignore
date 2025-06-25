@@ -1,0 +1,34 @@
+# Dependencias y entornos virtuales de Python
+/backend/venv/
+__pycache__/
+*.pyc
+
+# Archivos de la base de datos SQLite (para evitar conflictos)
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencias de Node.js
+/frontend/node_modules/
+
+# Archivos de build de React
+/frontend/build/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno (¡MUY IMPORTANTE!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos del editor VS Code
+.vscode/
